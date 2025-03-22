@@ -8,7 +8,7 @@ It supports windows 10 and it's free for you.
 Here you can download the latest version:
  - https://github.com/mem-kit/mouse-switch/releases
 It requires the Java JRE to run it, the version should greater than JRE 1.8.
- - https://learn.microsoft.com/en-us/windows/win32/api/winuser/
+ - [Java](https://www.java.com/en/download/)
 
 ## Build
 You can download the source code and build by yourself.
@@ -17,6 +17,6 @@ mvn clean package
 ```
 
 ## Reference
- - XMouse: https://github.com/robotbird/Xmouse
- - JNA: https://github.com/java-native-access/jna
- - Win API: https://learn.microsoft.com/en-us/windows/win32/api/winuser/
+ - [XMouse](https://github.com/robotbird/Xmouse)
+ - [JNA](https://github.com/java-native-access/jna)
+ - [Win API]( https://learn.microsoft.com/en-us/windows/win32/api/winuser/)
