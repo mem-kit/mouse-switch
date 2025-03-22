@@ -12,6 +12,12 @@ Here you can download the latest version:
 It requires the Java JRE to run it, the version should greater than JRE 1.8.
  - [Java](https://www.java.com/en/download/)
 
+It has desktop tray:
+![image](https://github.com/user-attachments/assets/8c482a48-61f1-462e-bc04-064d56d7f3ad)
+
+![image](https://github.com/user-attachments/assets/d180bae6-cb22-4056-bff1-3b60e11eb5b9)
+
+
 ## Build
 You can download the source code and build by yourself.
 ```
