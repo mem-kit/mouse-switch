@@ -19,7 +19,7 @@ It has desktop tray:
 
 
 ## Build
-You can download the source code and build by yourself.
+You can download the source code and build by yourself, but you need the JDK8+ to compile it.
 ```
 mvn clean package
 ```
