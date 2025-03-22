@@ -5,8 +5,10 @@ This tool is for mouse buttons switcher that allows you to congfigure mouse butt
 It supports windows 10 and it's free for you.
 
 ## Download & Run
+
 Here you can download the latest version:
  - https://github.com/mem-kit/mouse-switch/releases
+   
 It requires the Java JRE to run it, the version should greater than JRE 1.8.
  - [Java](https://www.java.com/en/download/)
 
