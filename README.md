@@ -1,4 +1,4 @@
-# Mouse Wwitch
+# Mouse Switch
 
 This tool is for mouse buttons switcher that allows you to congfigure mouse buttons quickly.
 
