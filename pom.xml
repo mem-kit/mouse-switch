@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>org.example</groupId>
+    <groupId>cn.memkit.tool</groupId>
     <artifactId>mouse</artifactId>
     <version>1.0.0</version>
 
@@ -33,6 +33,18 @@
             <!-- Other plugins -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.2.0</version>
+                <configuration>
+                    <archive>
+                        <manifestEntries>
+                            <Built-By>https://github.com/mem-kit/mouse-switch</Built-By>
+                        </manifestEntries>
+                    </archive>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
                 <version>3.2.4</version>
                 <executions>
@@ -53,6 +65,17 @@
             </plugin>
         </plugins>
     </build>
+
+    <developers>
+        <developer>
+            <id>memkit</id>
+            <name>MemKit Developer</name>
+            <email>meadking@qq.com</email>
+            <url>https://github.com/mem-kit/mouse-switch</url>
+        </developer>
+    </developers>
+
+    <url>https://memkit.cn</url>
 
 
 </project>
